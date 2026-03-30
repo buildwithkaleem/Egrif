@@ -222,14 +222,23 @@ const Header = () => {
       <div className="flex justify-between items-center max-w-7xl mx-auto px-6 md:px-8 py-4">
 
         {/* Logo */}
+
         <div className="text-2xl font-bold tracking-tighter text-[#35274e] dark:text-[#e0d7ff]">
-          <Link href="/">
-          {/* <Image */}
-          {/* // src={} */}
-          {/* // width={} */}
-          {/* // height={} */}
-          {/* // /> */}
-          </Link>
+        <Link href="/">
+
+          {/* Image */}
+          {/* <div className="relative  shrink-0">
+            <Image
+              src={"/egrif.png"}
+              alt={'Egrif'}
+              width={"120"}
+              height={"60"}
+              // fill
+              className="object-cover rounded-xl group-hover:scale-105 transition duration-500"
+            />
+          </div> */}
+          Egrif
+        </Link>
         </div>
 
         {/* ===== DESKTOP MENU ===== */}
@@ -304,9 +313,9 @@ const Header = () => {
           </div>
 
           {/* Mobile */}
-          
-            
-          
+
+
+
 
           <button
             onClick={() => setOpen(!open)}
