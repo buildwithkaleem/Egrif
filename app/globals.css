@@ -1,26 +1,84 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme{
+  /* --color-bg:red;
+  --color-bg-dark:blue;
+  --color-text:blue;
+  --color-text-dark:yellow; */
 }
 
-@theme inline {
+/* :root {
+  --background: #fff;
+  --foreground: #171717;
+} */
+
+/* @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
-body {
+/* body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Light & Dark background colors */
+ /* :root {
+  --light-purple: #E9D5FF;
+  --dark-purple: #5B21B6;
+  --primary-light: #A78BFA;
+  --primary-dark: #7C3AED;
+  --service: red;
+  --service-dark:green;
+} */
+
+/* html {
+  background-color: var(--light-purple);
+  color: #1f2937; */
+  /* gray-900 */
+  /* transition: background-color 0.5s, color 0.5s;
+
+  .service {
+      background-color: var(--service);
+    }
+} */
+
+
+
+
+/* html.dark {
+  background-color: var(--dark-purple);
+  color: #ffffff;
+  
+} */
+
+/* html.dark .service {
+  background-color: var(--service-dark);
 }
+
+/* Button colors */
+/* .theme-btn-light {
+  background-color: var(--primary-light);
+}
+
+.theme-btn-dark {
+  background-color: var(--primary-dark);
+}  */
+
