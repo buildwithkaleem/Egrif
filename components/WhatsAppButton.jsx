@@ -9,7 +9,7 @@ export default function WhatsAppButton({ phoneNumber, message, className, childr
       href={whatsappLink}
       target="_blank"
       rel="noopener noreferrer"
-      className={`inline-block ${className || "px-6 py-3 bg-green-500 text-white rounded-full hover:scale-105 transition duration-300"}`}
+      className={`inline-block  ${className || "px-6 py-3 bg-green-500 text-white rounded-full hover:scale-105 transition duration-300"}`}
     >
       {children || "Start Your Project 🚀"}
     </a>

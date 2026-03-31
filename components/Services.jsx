@@ -150,9 +150,9 @@ export default function Services() {
         {services.map((service, index) => (
           <div
             key={index}
-            className="bg-purple-200 dark:bg-purple-800 p-8 rounded-xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-transform duration-300"
+            className="bg-white dark:bg-purple-700 p-8 rounded-xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-transform duration-300"
           >
-            <span className="material-symbols-outlined text-purple-600 dark:text-purple-400 text-4xl mb-6">
+            <span className="material-symbols-outlined text-purple-600 dark:text-purple-100 text-4xl mb-6">
               {service.icon}
             </span>
             <h3 className="font-headline text-xl font-bold mb-3 text-purple-900 dark:text-purple-100">

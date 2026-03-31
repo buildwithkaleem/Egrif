@@ -54,8 +54,9 @@ export default function CTA() {
           
           <WhatsAppButton
             phoneNumber="+923144275078"
-            className="px-8 py-3 rounded-full font-semibold text-white
+            className="px-8 py-3 rounded-2xl font-semibold text-white dark:text-purple-100
             bg-gradient-to-r from-purple-600 to-purple-400
+            dark:from-purple-600 dark:to-purple-800
             hover:scale-105 hover:shadow-xl
             transition duration-300"
           >
@@ -77,7 +78,7 @@ export default function CTA() {
 
           <ScrollButton
             targetId="projects"
-            className=" shadow-lg hover:scale-105 px-8 py-3 rounded-full font-semibold
+            className=" shadow-lg hover:scale-105 px-8 py-3 rounded-2xl font-semibold
             border border-purple-500 text-purple-600
             dark:text-purple-200 dark:border-purple-400
             hover:bg-purple-100 dark:hover:bg-purple-800/30

@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { FaArrowUp } from "react-icons/fa";
+// import { FaArrowUp } from "react-icons/fa";
+import { IoIosArrowUp } from "react-icons/io";
 
 export default function ScrollToTop() {
   const [show, setShow] = useState(false);
@@ -24,13 +25,13 @@ export default function ScrollToTop() {
       {show && (
         <button
           onClick={scrollTop}
-          className="fixed bottom-8 right-8 z-50 p-3 rounded-full
-                     bg-gradient-to-r from-purple-600 to-purple-400
+          className="fixed cursor-pointer bottom-16 right-8 z-50 p-3 rounded-2xl
+                     bg-gradient-to-r from-purple-600/70 to-purple-400/70
                      text-white shadow-lg hover:scale-110 transition-transform
-                     dark:from-purple-900 dark:to-purple-700"
+                     dark:from-purple-900/70 dark:to-purple-700/70"
           title="Scroll to top"
         >
-          <FaArrowUp size={18} />
+          <IoIosArrowUp size={18} />
         </button>
       )}
     </>

@@ -406,8 +406,9 @@ export default function About() {
             </div>
 
             {/* CTA */}
-            <button className="mt-6 px-8 py-4 rounded-full font-semibold text-white
+            <button className="mt-6 px-8 py-4 rounded-2xl font-semibold text-black dark:text-purple-100
             bg-gradient-to-r from-purple-600 to-purple-400
+            dark:from-purple-600 dark:to-purple-800
             hover:scale-105 hover:shadow-xl
             transition duration-300">
               Learn More →

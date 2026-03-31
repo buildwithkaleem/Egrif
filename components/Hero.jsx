@@ -91,6 +91,7 @@ const Hero = () => {
       id='hero'
       className="pt-40 pb-20 px-6 mx-auto flex flex-col md:flex-row items-center gap-16
                  bg-gradient-to-b from-purple-50 to-purple-100 dark:from-purple-950 dark:to-purple-900 transition-colors duration-500"
+                 
     >
 
       {/* Left Content */}
@@ -117,8 +118,8 @@ const Hero = () => {
           {/* WhatsApp Button */}
           <WhatsAppButton
             phoneNumber="+923144275078"
-            className="px-8 pb-3 pt-4 rounded-full font-semibold text-white
-                       bg-gradient-to-r from-purple-600 to-purple-400 dark:from-purple-500 dark:to-purple-700
+            className="px-8 pb-3 pt-4 rounded-2xl font-semibold text-white dark:text-purple-100
+                       bg-gradient-to-r from-purple-600 to-purple-400 dark:from-purple-600 dark:to-purple-800
                        hover:scale-105 hover:shadow-xl transition duration-300"
           >
             Start Your Project 🚀
@@ -128,7 +129,7 @@ const Hero = () => {
           <ScrollButton
             targetId="projects"
             className="bg-purple-200 dark:bg-purple-700 text-purple-900 dark:text-purple-100
-                             cursor-pointer px-8 py-4 rounded-full font-semibold
+                             cursor-pointer px-8 py-4 rounded-2xl font-semibold
                              hover:bg-purple-300 dark:hover:bg-purple-600 transition duration-300"
           >
             View Portfolio

@@ -115,7 +115,7 @@ export default function Projects() {
   const projects = [
     {
       name: "Earnify Blog",
-      logo: "/projects/earnify-blog.avif",
+      logo: "/projects/earnify-blog1.jpg",
       url: "https://earnify.egrif.online/",
     },
     // {

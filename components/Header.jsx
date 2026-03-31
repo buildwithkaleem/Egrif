@@ -270,7 +270,7 @@ const Header = () => {
             <ScrollButton
               key={index}
               targetId={item.id}
-              className={navClass(item.id)}
+              className={`hover:text-purple-500 ${navClass(item.id)}`}
             >
               {item.text}
             </ScrollButton>
@@ -304,8 +304,9 @@ const Header = () => {
           <div className="hidden md:block mr-8">
             <WhatsAppButton
               phoneNumber="+923144275078"
-              className="px-6 py-2.5 rounded-full text-sm font-semibold text-white
+              className="px-6 py-2.5 rounded-2xl text-sm font-semibold  text-white dark:text-purple-100
               bg-gradient-to-r from-purple-600 to-purple-400
+              dark:from-purple-600 dark:to-purple-800
               hover:scale-105 hover:shadow-xl transition duration-300"
             >
               Start Your Project 🚀

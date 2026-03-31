@@ -109,8 +109,9 @@ export default function Footer() {
 
             <WhatsAppButton
               phoneNumber="+923144275078"
-              className="inline-block px-6 py-3 rounded-full font-semibold text-white
+              className="inline-block px-6 py-3 rounded-2xl font-semibold text-white dark:text-purple-100
               bg-gradient-to-r from-purple-600 to-purple-400
+              dark:from-purple-600 dark:to-purple-800
               hover:scale-105 hover:shadow-xl transition duration-300"
             >
               Start Your Project
