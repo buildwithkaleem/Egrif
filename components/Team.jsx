@@ -571,7 +571,7 @@ export default function Team() {
         </div>
 
         {/* Grid */}
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className="grid md:grid-cols-2 gap-14 items-center">
 
           {teamData.map((member, index) => (
             <div

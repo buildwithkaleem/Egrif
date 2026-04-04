@@ -374,7 +374,7 @@ const Header = () => {
 
           <WhatsAppButton
             phoneNumber="+923144275078"
-            className="w-full text-center px-6 py-3 rounded-full font-semibold text-white
+            className="w-full text-center px-6 py-3 rounded-2xl font-semibold text-white
             bg-gradient-to-r from-purple-600 to-purple-400"
           >
             Start Your Project 🚀
