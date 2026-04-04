@@ -547,7 +547,7 @@ export default function Team() {
   ];
 
   return (
-    <section className="relative py-28 px-6 overflow-hidden 
+    <section className=" relative py-28 px-6 overflow-hidden 
     bg-gradient-to-b from-purple-50 via-white to-white 
     dark:from-purple-950 dark:via-black dark:to-black">
 
