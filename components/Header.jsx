@@ -224,20 +224,20 @@ const Header = () => {
         {/* Logo */}
 
         <div className="text-2xl font-bold tracking-tighter text-[#35274e] dark:text-[#e0d7ff]">
-        <Link href="/">
+          <Link href="/" className="flex items-center" >
 
           {/* Image */}
-          {/* <div className="relative  shrink-0">
+          <div >
             <Image
-              src={"/egrif.png"}
+              src={"/egrif-logo-main2.png"}
               alt={'Egrif'}
-              width={"120"}
+              width={"60"}
               height={"60"}
               // fill
               className="object-cover rounded-xl group-hover:scale-105 transition duration-500"
             />
-          </div> */}
-          Egrif
+          </div>
+            <span className="mt-3" > Egrif</span>
         </Link>
         </div>
 
@@ -295,7 +295,7 @@ const Header = () => {
             <DarkLight />
           </div> */}
 
-          <div className=" md:fixed top-3 right-4">
+          <div className=" md:fixed top-7 right-4">
             <DarkLight />
           </div>
 
