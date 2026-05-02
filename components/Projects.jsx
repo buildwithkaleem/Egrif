@@ -115,14 +115,14 @@ export default function Projects() {
   const projects = [
     {
       name: "Earnify Blog",
-      logo: "/projects/earnify-blog1.jpg",
+      logo: "/projects/earnify/earnify-blog1.jpg",
       url: "https://earnify.egrif.online/",
     },
-    // {
-    //   name: "Earnify",
-    //   logo: "/projects/earnify.png",
-    //   url: "https://earnify.egrif.online",
-    // },
+    {
+      name: "Earnify",
+      logo: "/projects/pocketmoney/pocketmoney-logo.png",
+      url: "https://earnify.egrif.online",
+    },
     // {
     //   name: "Portfolio",
     //   logo: "/projects/portfolio.png",
@@ -195,8 +195,7 @@ export default function Projects() {
                   fill
                   className="object-contain opacity-80 group-hover:opacity-100 transition duration-300"
                 />
-              </div>
-
+             </div>
             </a>
           ))}
 
