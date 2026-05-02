@@ -120,7 +120,7 @@ export default function Projects() {
     },
     {
       name: "Pocket Money",
-      logo: "/projects/pocketmoney/pocketmoney-logo.png",
+      logo: "/projects/earnify/pocketmoney-logo.png",
       url: "https://earnify.egrif.online",
     },
     // {
