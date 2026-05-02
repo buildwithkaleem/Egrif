@@ -120,8 +120,8 @@ export default function Projects() {
     },
     {
       name: "Pocket Money",
-      logo: "/projects/earnify/pocketmoney-logo.png",
-      url: "https://earnify.egrif.online",
+      logo: "/projects/pocketmoney/pocketmoney-logo.png",
+      url: "https://pocketmoney-final.vercel.app",
     },
     // {
     //   name: "Portfolio",
